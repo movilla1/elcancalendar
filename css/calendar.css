@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+.weekcalendar {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 80%
+}
+
+.weekcalendar th {
+	border: 1px solid gray;
+	text-align: center;
+	background-color: lightgray;
+	width: 120px;
+}
+.weekcalendar td {
+	border: 1px solid gray;
+	padding: 2px;
+	width: 120px;
+}
+.weekcalendar td span {
+	clear: both;
+}
+.weekcalendar td span a {
+	display: block;
+	width: 120px;
+	height: 36px;
+	boder: 1px solid red;
+	border-radius: 10px;
+	background-color: #cfcfff;
+	padding: 4px;
+}
+
+.weekcalendar td span a {
+	text-decoration: none;
+	color: #565;
+}
+
+.weekcalendar td {
+	min-height: 50px;
+	min-width: 105px;
+	max-width: 105px;
+	vertical-align: top;
+}
+
+.weekcalendar td div a {
+	display: block;
+	width: 95px;
+	height: 36px;
+	boder: 1px solid red;
+	border-radius: 10px;
+	background-color: #cfcfff;
+	padding: 4px;
+	text-decoration: none;
+	color: #565;
+}
